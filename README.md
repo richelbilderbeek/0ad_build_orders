@@ -37,10 +37,10 @@ Supply|Time|What
 9     |0:40|Do: Farmstead: research Wicker Baskets (100 wood, 40 secs)
 15    |0:47|The batch of ranged units comes out
 15    |0:47|Do: Civic center: queue building 1x woman, direct to wood [3]
->15   |1:20|All solders are near the enemy base
->15   |1:20|Do: all solders are put into the 'Box' formation
->15   |1:25|Do: all solders attack move along the edges of the enemy base [4]
->15   |   .|Do: build up an economy at home
+15+   |1:20|All solders are near the enemy base
+15+   |1:20|Do: all solders are put into the 'Box' formation
+15+   |1:25|Do: all solders attack move along the edges of the enemy base [4]
+15+   |   .|Do: build up an economy at home
 
  * [1] The arrival of this group of ranged units is the bottleneck 
    in engaging with the enemy
