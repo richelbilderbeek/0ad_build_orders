@@ -1,0 +1,30 @@
+on:
+  push:
+  pull_request:
+
+name: check_build
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: build
+        run: |
+          cd build
+          cmake --build .
+          cd ..
+
+      - name: run
+        run: ./build/0ad_build_orders
+
+      - name: Measure codecov 1
+        run: ./get_code_cov.sh
+
+      - name: Measure codecov 2
+        run: codecov
+
+      - name: Measure codecov 3
+        run: bash <(curl -s https://codecov.io/bash)
+
