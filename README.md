@@ -65,6 +65,13 @@ Supply|Time|What
      * let all ranged unit patrol behind berry bushes
      * let the melee units either take over a tower (if any), or go home
 
+## Building the project
+
+```
+mkdir build
+cmake --build .
+```
+
 ## Terms
 
 Term         |Explaination
