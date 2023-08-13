@@ -25,7 +25,7 @@ Supply|Time|What
  * See replay in folder `slinger_rush`
  * Civilization: Protolemies
  * Map: Tarim Basin (4 players)
- * Video: [YouTube](https://youtu.be/S2xf2a2Vrc8)
+ * Video: [YouTube](https://youtu.be/S2xf2a2Vrc8) [Download (.OGV)](https://richelbilderbeek.nl/0ad_a26_slinger_rush.ogv)
 
 Supply|Time|What
 ------|----|--------------------------------------------------------------------
