@@ -22,10 +22,28 @@ Supply|Time|What
 
 ## Slinger rush
 
+ * Similar to archer rush.
  * See replay in folder `slinger_rush`
- * Civilization: Protolemies
+ * Civilization: all slinger/crossbow civilizations:
+   Athenians, Britons, Han, Ptolemies
  * Map: Tarim Basin (4 players)
  * Video: [YouTube](https://youtu.be/S2xf2a2Vrc8) [Download (.OGV)](https://richelbilderbeek.nl/0ad_a26_slinger_rush.ogv)
+ * Consider using when:
+   * Opponent cannot produce ranged units with a short range 
+     from its civic center; i.e. only javelineers: 
+     Gauls, Iberians, Macedonians, Romans, Seleucids, Spartans
+   * There is few hunt close the civic center
+ * Avoid using when:
+   * Opponent has an archer civilization, as these have better range: 
+     Carthagenians, Kushites, Mauryas, Persians
+   * There is a lot of hunt close to the civic center
+
+vs |A  |B  |C  |G  |H  |I  |K  |MC |MU |PE |PT |R  |SE |SP 
+---|---|---|---|---|---|---|---|---|---|---|---|---|---|---
+You|.  |.  |-  |+  |.  |+  |-  |+  |-  |-  |.  |+  |+  |+
+
+> You (a slinger civilization) having worse (`-`), equal (`.`) or
+> better (`+`) range than the opponent
 
 Supply|Time|What
 ------|----|--------------------------------------------------------------------
@@ -71,6 +89,44 @@ Supply|Time|What
 mkdir build
 cmake --build .
 ```
+
+## Civilization abbreviations
+
+Character|Civilization
+---------|------------
+A |Athenians
+B |Britons
+C |Carthagenians 
+G |Gauls
+H |Han
+I |Iberians
+K |Kushites 
+MC|Macedonians
+MU|Mauryas 
+PE|Persians
+PT|Ptolemies
+R |Romans
+SE|Seleucids
+SP|Spartans
+
+## Civilizations' civic center ranged unit
+
+Civ|Civic center ranged unit
+---|------------------------
+A  |Slingers
+B  |Slingers
+C  |Archers
+G  |Javalineers
+H  |Crossbowmen
+I  |Javalineers
+K  |Archers
+MC |Javalineers
+MU |Archers
+PE |Archers
+PT |Slingers
+R  |Javalineers
+SE |Javalineers
+SP |Javalineers
 
 ## Terms
 
